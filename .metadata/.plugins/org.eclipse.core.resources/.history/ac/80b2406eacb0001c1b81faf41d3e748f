@@ -1,0 +1,12 @@
+package com.capg.day5;
+
+public class MyStringFunction {
+	public static void main(String[] args) {
+		String com="Capgemini";
+		String me=new String("Anusha");
+		//compareTo
+		System.out.println(com.charAt(4));
+		
+	}
+
+}

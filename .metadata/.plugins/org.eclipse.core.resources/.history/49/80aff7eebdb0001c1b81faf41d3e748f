@@ -1,0 +1,16 @@
+package com.capg.day4;
+import java.util.Scanner;
+public class MyArray {
+	public static void main(String[] args) {
+	
+int [] ar1=new int[10];
+double [] ar2=new double [9];
+String [] ar3=new String[8];
+float [] ar4=new float[5];
+
+for(int i=0;i<ar1.length;i++) {
+	System.out.println("enter the first array elements");
+	
+}
+	}
+}

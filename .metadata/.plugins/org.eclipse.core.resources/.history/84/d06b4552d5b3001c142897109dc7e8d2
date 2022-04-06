@@ -1,0 +1,27 @@
+package com.cag.day7;
+
+import java.util.Hashtable;
+import java.util.Set;
+
+public class TrialMap {
+	public static void main(String[] args) {
+		Hashtable<Integer,String> map=new Hashtable<Integer,String>();
+		
+		map.put(005, "Anu");
+		map.put(006, "Tanu");
+		map.put(003, "Ayan");
+		map.put(001, "San");
+		
+		System.out.println(map.get(001));
+		
+		Set<Integer>keys=map.keySet();
+		
+		//map.clear();
+		System.out.println(map.contains(001));
+		for(Integer key:keys) {
+			System.out.println("key "+key+" Values "+map.get(key));
+		}
+		
+		
+	}
+}

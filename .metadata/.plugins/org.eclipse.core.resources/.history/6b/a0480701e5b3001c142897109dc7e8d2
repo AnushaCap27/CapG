@@ -1,0 +1,44 @@
+package com.cag.day7;
+
+public class Book {
+	
+		int BookID;
+		String Name;
+		int Price;
+		
+		public Book(int bookid, String name,int price) {	
+			BookID = bookid;
+			Name = name;
+			Price=price;
+		}
+
+		public int getBookID() {
+			return BookID;
+		}
+
+		public void setBookID(int bookID) {
+			BookID = bookID;
+		}
+
+		public String getName() {
+			return Name;
+		}
+
+		public void setName(String name) {
+			Name = name;
+		}
+
+		public int getPrice() {
+			return Price;
+		}
+
+		public void setPrice(int price) {
+			Price = price;
+		}
+
+		@Override
+		public String toString() {
+			return "Book [BookID=" + BookID + ", Name=" + Name + ", Price=" + Price + "]";
+		}
+	}
+

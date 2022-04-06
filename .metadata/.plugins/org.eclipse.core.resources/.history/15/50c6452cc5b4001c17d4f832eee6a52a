@@ -1,0 +1,22 @@
+package com.capg.day8;
+interface Trial{
+	public void print();
+	default public void printing() {
+		System.out.println("Hello Im printing");
+	}
+}
+public class MyStatic implements Trial{
+	static {
+		System.out.println("Im Static");
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println("Im Override");
+	}
+	
+		
+
+}
+	

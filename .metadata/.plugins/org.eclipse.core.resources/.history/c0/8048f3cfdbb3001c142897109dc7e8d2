@@ -1,0 +1,13 @@
+package com.cag.day7;
+
+public class Student {
+	int ID;	
+	String Name;
+	String Mark;
+	public Student(int iD, String name,String mark) {
+		super();
+		ID = iD;
+		Name = name;
+		Mark=mark;
+	}
+}

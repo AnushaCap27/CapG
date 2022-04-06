@@ -1,0 +1,14 @@
+package com.cag.day7;
+
+import java.util.HashMap;
+
+public class Library {
+	public static void main(String[] args) {
+		HashMap<Integer,Book>map=new HashMap<Integer,Book>();
+		map.put(1001, new Book(101,"Fear Not",500));
+		map.put(1002, new Book(102,"War and Peace",900));
+		
+		System.out.println(map);
+	}
+
+}

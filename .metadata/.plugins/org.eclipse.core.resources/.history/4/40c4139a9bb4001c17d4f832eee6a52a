@@ -1,0 +1,14 @@
+package com.capg.day8;
+
+interface Lambda{
+	public void print();
+}
+
+public class MyLambda {
+	public static void main(String[] args) {
+		Lambda a=() -> {
+			System.out.println("welcome to Day 8");
+		};
+	}
+
+}

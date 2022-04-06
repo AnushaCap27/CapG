@@ -1,0 +1,35 @@
+package com.capg.day6;
+
+public class Student {
+	int ID;	
+	String Name;
+	float Marks;
+	public Student(int iD, String name, float marks) {
+		super();
+		ID = iD;
+		Name = name;
+		Marks = marks;
+	}
+	public int getID() {
+		return ID;
+	}
+	public void setID(int iD) {
+		ID = iD;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public float getMarks() {
+		return Marks;
+	}
+	public void setMarks(float marks) {
+		Marks = marks;
+	}
+	@Override
+	public String toString() {
+		return "Student [ID=" + ID + ", Name=" + Name + ", Marks=" + Marks + "]";
+	}
+}

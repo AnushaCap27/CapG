@@ -1,0 +1,55 @@
+package com.capg.day6;
+
+import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class MyLink {
+	public static void main(String[] args) {
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		LinkedList<Integer> list1 = new LinkedList<Integer>();
+
+		list.add(9);
+		list.add(1);
+		list.add(5);
+		list.add(7);
+		list.add(10);
+
+		list1.add(10);
+		list1.add(7);
+		list1.add(5);
+		list1.add(1);
+
+		Collections.sort(list, Collections.reverseOrder());
+		System.out.println(list);
+
+		list.remove(1);
+		System.out.println(list);
+
+		System.out.println(list.contains(10));
+
+		System.out.println(list.equals(list1));
+
+		System.out.println(list.get(1));
+		
+		System.out.println(list.isEmpty());
+		
+		System.out.println(list.indexOf(100));
+		
+		Iterator<Integer> it = list.iterator();
+		while (it.hasNext())
+			System.out.println("it " + it.next());
+		
+		System.out.println(list.size());
+
+		System.out.println(list.set(0, 24));
+		
+		System.out.println(list);
+		
+		System.out.println(list.offer(12));
+		System.out.println(list);
+
+	}
+
+}
